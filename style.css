@@ -1,0 +1,43 @@
+body{
+  background-attachment: fixed;
+  background-color:rgb(25,25,25) ;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraf{
+  font-size: 30px;
+  font-weight: bold;
+}
+img{
+  height: 50px;
+}
+.move{
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.score{
+  margin-top: 50px;
+}
+
+.reset-score, .auto-play, .reset-confirm-button{
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+.reset-confirm-button {
+  margin-left: 10px;
+}
